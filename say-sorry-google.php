@@ -2,7 +2,7 @@
 /*
 Plugin Name: Laoha Theme Add
 Plugin URI: 
-Description: Say Sorry Google.
+Description: 自动禁用google fonts,自动将来自maps.googleapis.com 和ajax.googleapis.com的js文件转址到可访问的地方.
 Version: 1.0.0
 Author: Laoha 老蟹
 Author URI: 
