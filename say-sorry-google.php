@@ -16,7 +16,7 @@ function wp_style_del_web( $src, $handle ) {
 	}	
 	return $src;
 }
-add_filter( 'style_loader_src', 'wp_style_del_web', 2, 2 );
+add_filter( 'style_loader_src', 'wp_style_del_web', 99, 2 );
 
 function wp_script_del_web( $src, $handle ) {
 	$src_low = strtolower($src);
@@ -28,6 +28,6 @@ function wp_script_del_web( $src, $handle ) {
 	}
 	return $src;
 }
-add_filter( 'script_loader_src', 'wp_script_del_web', 2, 2 );
+add_filter( 'script_loader_src', 'wp_script_del_web', 99, 2 );
 
 ?>
